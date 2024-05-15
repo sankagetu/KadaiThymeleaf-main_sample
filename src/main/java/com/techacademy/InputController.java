@@ -12,7 +12,7 @@ public class InputController {
     @GetMapping("/input")
     public String getInput(@RequestParam(name="previous",required=false)String previous,Model model) {
         model.addAttribute("previous",previous);
-        System.out.println("テスト");
+        System.out.println("テスト02");
         return "input";
     }
 
